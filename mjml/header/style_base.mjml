@@ -1,0 +1,144 @@
+<mj-breakpoint width="595px" />
+<mj-attributes>
+    <mj-all
+            font-family="Arial, sans-serif"
+            color="#fff"
+    />
+    <mj-class name="img--full"
+              padding="0"
+              width="600px"
+    />
+    <mj-class name="pad--0"
+              padding="0"
+    />
+
+    <mj-class name="main__bg"
+              full-width="full-width"
+              background-color="#302E2F"
+    />
+    <mj-class name="main__banner"
+              padding="0"
+    />
+    <mj-class name="grid"
+              padding="0 8px"
+    />
+    <mj-class name="grid__column2"
+              padding="0 8px"
+              width="292px"
+              vertical-align="middle"
+    />
+    <mj-class name="content__text"
+              font-size="16px"
+              line-height="20px"
+              padding="0"
+              font-weight="700"
+    />
+    <mj-class name="content__logo"
+              width="276px"
+              padding="0"
+    />
+
+
+    <mj-class name="product__card-section"
+              padding="0 8px"
+    />
+    <mj-class name="product__card-column"
+              padding="16px 8px"
+              width="292px"
+    />
+    <mj-class name="product__card-column3"
+              padding="0"
+              width="200px"
+    />
+    <mj-class name="product__card"
+              padding="0"
+    />
+    <mj-class name="product__card-inner"
+              padding="0"
+    />
+    <mj-class name="product__card-img"
+              padding="0 0 10px"
+              width="276px"
+    />
+    <mj-class name="product__card-text"
+              padding="0 0 0 10px"
+              font-size="14px"
+              line-height="17px"
+              font-weight="700"
+    />
+
+    <mj-class name="footer__divider"
+              padding="30px 0 0"
+    />
+    <mj-class name="footer"
+              full-width="full-width"
+              background-color="#F90A0A"
+              padding="0"
+    />
+    <mj-class name="footer__inner"
+              padding="20px 8px"
+    />
+    <mj-class name="footer__grid"
+              padding="0"
+    />
+    <mj-class name="footer__grid-col2"
+              padding="10px 8px"
+              width="292px"
+    />
+    <mj-class name="footer__order"
+              color="#F90A0A"
+              background-color="#fff"
+              border-radius="0px"
+              text-transform="uppercase"
+              font-weight="700"
+              font-size="26px"
+              line-height="32px"
+              width="100%"
+              padding="0 0 10px"
+              inner-padding="15px 25px"
+    />
+    <mj-class name="footer__store"
+              color="#fff"
+              background-color="transparent"
+              border-radius="0px"
+              font-weight="700"
+              font-size="32px"
+              line-height="38px"
+              width="100%"
+              padding="0"
+              inner-padding="0"
+    />
+    <mj-class name="footer__text"
+              font-weight="700"
+              font-size="14px"
+              line-height="21px"
+              padding="0 0 10px"
+              align="center"
+    />
+    <mj-class name="footer__phone"
+              color="#fff"
+              background-color="transparent"
+              border-radius="0px"
+              font-weight="700"
+              font-size="32px"
+              line-height="38px"
+              width="100%"
+              padding="0"
+              inner-padding="0"
+    />
+</mj-attributes>
+<mj-style inline="inline">
+    .dib{
+        width: 100% !important;
+        display: inline-block !important;
+    }
+    .grid__column2{
+        max-width: 292px !important;
+    }
+    .product__card-column{
+        max-width: 292px !important;
+    }
+    .footer__grid-col2{
+        max-width: 292px !important;
+    }
+</mj-style>

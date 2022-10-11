@@ -1,0 +1,95 @@
+<mjml>
+    <mj-head>
+        <mj-include path="header/style_base.mjml" />
+        <mj-attributes>
+            <mj-class name="grid"
+                      padding="40px 8px 30px"
+            />
+        </mj-attributes>
+        <mj-preview>Успейте сделать заказ!&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</mj-preview>
+        <mj-title>⚡️Осенняя распродажа TEGOLA</mj-title>
+    </mj-head>
+    <mj-body background-color="#fff">
+        <!-- Основной баннер -->
+        <mj-section mj-class="main__bg  main__banner"  >
+            <mj-column mj-class="pad--0">
+                <mj-image mj-class="img--full"
+                          src="https://caezar47.github.io/tegola/img/001/main-banner.jpg"
+                />
+            </mj-column>
+        </mj-section>
+        <!-- end's Основной баннер -->
+        <!-- grid -->
+        <mj-section mj-class="grid  main__bg">
+            <mj-column mj-class="grid__column2" css-class="dib  grid__column2">
+                <mj-text mj-class="content__text">
+                    Только в&nbsp;период с&nbsp;07.10.2022 до&nbsp;31.12.2022 предоставляем дополнительные скидки на&nbsp;пародиффузионные мембраны и пароизоляционные мембраны TEGOLA
+                </mj-text>
+            </mj-column>
+            <mj-column mj-class="grid__column2" css-class="dib  grid__column2">
+                <mj-image mj-class="content__logo"
+                          src="https://caezar47.github.io/tegola/img/001/logo.png"
+                          href="https://tegola.ru/"
+                />
+            </mj-column>
+        </mj-section>
+        <!-- end's grid -->
+        <!-- Карточки товаров -->
+        <mj-section mj-class="main__bg  product__card-section">
+            <mj-column mj-class="product__card-column" css-class="dib  product__card-column">
+                <mj-section mj-class="product__card">
+                    <mj-column mj-class="product__card-inner">
+                        <mj-image mj-class="product__card-img"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item1-1.png"
+                                  href="https://tegola.ru/product/difbar-95-plyus"/>
+                        <mj-text mj-class="product__card-text">
+                            Пародиффузионная мембрана с&nbsp;клейкой полосой для защиты теплоизоляции и структуры кровельного пирога от&nbsp;атмосферной влаги.
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+            <mj-column mj-class="product__card-column" css-class="dib  product__card-column">
+                <mj-section mj-class="product__card">
+                    <mj-column mj-class="product__card-inner">
+                        <mj-image mj-class="product__card-img"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item2-1.png"
+                                  href="https://tegola.ru/product/difbar-130-plyus"/>
+                        <mj-text mj-class="product__card-text">
+                            Пародиффузионная мембрана с&nbsp;клейкой полосой для защиты теплоизоляции и&nbsp;структуры кровельного пирога от&nbsp;атмосферной влаги.
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="main__bg  product__card-section">
+            <mj-column mj-class="product__card-column" css-class="dib  product__card-column">
+                <mj-section mj-class="product__card">
+                    <mj-column mj-class="product__card-inner">
+                        <mj-image mj-class="product__card-img"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item3-1.png"
+                                  href="https://tegola.ru/product/difbar-100"/>
+                        <mj-text mj-class="product__card-text">
+                            Пародиффузионная мембрана с&nbsp;клейкой полосой для защиты теплоизоляции и&nbsp;структуры кровельного пирога от&nbsp;атмосферной влаги.
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+            <mj-column mj-class="product__card-column" css-class="dib  product__card-column">
+                <mj-section mj-class="product__card">
+                    <mj-column mj-class="product__card-inner">
+                        <mj-image mj-class="product__card-img"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item4-1.png"
+                                  href="https://tegola.ru/product/alyubar-aktiv"/>
+                        <mj-text mj-class="product__card-text">
+                            Пароизоляционная мембрана Алюбар Актив для скатных крыш препятствует проникновению паров теплого влажного воздуха из&nbsp;жилого помещения в&nbsp;структуру кровли.
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+        <!-- end's Карточки товаров -->
+
+        <!-- Footer -->
+        <mj-include path="footer/footer_base.mjml" />
+    </mj-body>
+</mjml>

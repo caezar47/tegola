@@ -1,0 +1,28 @@
+<mj-section mj-class="main__bg  footer__divider">
+    <mj-column mj-class="pad--0"></mj-column>
+</mj-section>
+<mj-section mj-class="footer">
+    <mj-column mj-class="footer__inner">
+        <mj-section mj-class="footer__grid">
+            <mj-column mj-class="footer__grid-col2" css-class="dib  footer__grid-col2">
+                <mj-button mj-class="footer__order"
+                           href="#">
+                    Сделать заказ
+                </mj-button>
+                <mj-button mj-class="footer__store"
+                           href="https://tegola.ru/">
+                    tegola.ru
+                </mj-button>
+            </mj-column>
+            <mj-column mj-class="footer__grid-col2" css-class="dib  footer__grid-col2">
+                <mj-text mj-class="footer__text">
+                    Подробную информацию спрашивайте у&nbsp;вашего персонального менеджера, либо по&nbsp;телефону горячей линии
+                </mj-text>
+                <mj-button mj-class="footer__phone"
+                           href="tel:88005119802">
+                    8 (800) 511-98-02
+                </mj-button>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+</mj-section>
