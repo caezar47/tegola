@@ -2,8 +2,78 @@
     <mj-head>
         <mj-include path="header/style_base.mjml" />
         <mj-attributes>
+            <mj-all
+                    font-family="Arial, sans-serif"
+                    color="#fff"
+            />
             <mj-class name="grid"
                       padding="40px 8px 30px"
+            />
+            <mj-class name="footer__divider"
+                      padding="30px 0 0"
+            />
+            <mj-class name="footer"
+                      full-width="full-width"
+                      background-color="#c31514"
+                      padding="0"
+            />
+            <mj-class name="footer__inner"
+                      padding="20px 8px"
+            />
+            <mj-class name="footer__grid"
+                      padding="0"
+            />
+            <mj-class name="footer__grid-col2"
+                      padding="10px 8px"
+                      width="292px"
+            />
+            <mj-class name="footer__order"
+                      color="#c31514"
+                      background-color="#fff"
+                      border-radius="0px"
+                      text-transform="uppercase"
+                      font-weight="700"
+                      font-size="24px"
+                      line-height="32px"
+                      width="100%"
+                      padding="0 0 10px"
+                      inner-padding="15px 20px"
+            />
+            <mj-class name="footer__store"
+                      color="#fff"
+                      background-color="transparent"
+                      border-radius="0px"
+                      font-weight="700"
+                      font-size="28px"
+                      line-height="38px"
+                      width="100%"
+                      padding="0"
+                      inner-padding="0"
+            />
+            <mj-class name="footer__text"
+                      font-weight="700"
+                      font-size="14px"
+                      line-height="21px"
+                      padding="0 0 10px"
+                      align="center"
+            />
+            <mj-class name="footer__phone"
+                      color="#fff"
+                      background-color="transparent"
+                      border-radius="0px"
+                      font-weight="700"
+                      font-size="28px"
+                      line-height="38px"
+                      width="100%"
+                      padding="0"
+                      inner-padding="0"
+            />
+            <mj-class name="footer__unsubscribe"
+                      color="#fff"
+                      font-size="12px"
+                      line-height="18px"
+                      padding="15px 0 0 0"
+                      align="center"
             />
         </mj-attributes>
         <mj-preview>Успейте сделать заказ!&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</mj-preview>
@@ -22,15 +92,15 @@
         <!-- grid -->
         <mj-section mj-class="grid  main__bg">
             <mj-column mj-class="grid__column2" css-class="dib  grid__column2">
+                <mj-image mj-class="content__logo"
+                          src="https://caezar47.github.io/tegola/img/001/logo2.png"
+                          href="https://tegola.ru/"
+                />
+            </mj-column>
+            <mj-column mj-class="grid__column2" css-class="dib  grid__column2">
                 <mj-text mj-class="content__text">
                     Только в&nbsp;период с&nbsp;07.10.2022 до&nbsp;31.12.2022 предоставляем дополнительные скидки на&nbsp;пародиффузионные мембраны и пароизоляционные мембраны TEGOLA
                 </mj-text>
-            </mj-column>
-            <mj-column mj-class="grid__column2" css-class="dib  grid__column2">
-                <mj-image mj-class="content__logo"
-                          src="https://caezar47.github.io/tegola/img/001/logo.png"
-                          href="https://tegola.ru/"
-                />
             </mj-column>
         </mj-section>
         <!-- end's grid -->
@@ -40,7 +110,7 @@
                 <mj-section mj-class="product__card">
                     <mj-column mj-class="product__card-inner">
                         <mj-image mj-class="product__card-img"
-                                  src="https://caezar47.github.io/tegola/img/001/products-item1-1.png"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item1-2.png"
                                   href="https://tegola.ru/product/difbar-95-plyus"/>
                         <mj-text mj-class="product__card-text">
                             Пародиффузионная мембрана с&nbsp;клейкой полосой для защиты теплоизоляции и структуры кровельного пирога от&nbsp;атмосферной влаги.
@@ -52,7 +122,7 @@
                 <mj-section mj-class="product__card">
                     <mj-column mj-class="product__card-inner">
                         <mj-image mj-class="product__card-img"
-                                  src="https://caezar47.github.io/tegola/img/001/products-item2-1.png"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item2-2.png"
                                   href="https://tegola.ru/product/difbar-130-plyus"/>
                         <mj-text mj-class="product__card-text">
                             Пародиффузионная мембрана с&nbsp;клейкой полосой для защиты теплоизоляции и&nbsp;структуры кровельного пирога от&nbsp;атмосферной влаги.
@@ -66,7 +136,7 @@
                 <mj-section mj-class="product__card">
                     <mj-column mj-class="product__card-inner">
                         <mj-image mj-class="product__card-img"
-                                  src="https://caezar47.github.io/tegola/img/001/products-item3-1.png"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item3-2.png"
                                   href="https://tegola.ru/product/difbar-100"/>
                         <mj-text mj-class="product__card-text">
                             Пародиффузионная мембрана с&nbsp;клейкой полосой для защиты теплоизоляции и&nbsp;структуры кровельного пирога от&nbsp;атмосферной влаги.
@@ -78,7 +148,7 @@
                 <mj-section mj-class="product__card">
                     <mj-column mj-class="product__card-inner">
                         <mj-image mj-class="product__card-img"
-                                  src="https://caezar47.github.io/tegola/img/001/products-item4-1.png"
+                                  src="https://caezar47.github.io/tegola/img/001/products-item4-2.png"
                                   href="https://tegola.ru/product/alyubar-aktiv"/>
                         <mj-text mj-class="product__card-text">
                             Пароизоляционная мембрана Алюбар Актив для скатных крыш препятствует проникновению паров теплого влажного воздуха из&nbsp;жилого помещения в&nbsp;структуру кровли.
@@ -90,6 +160,39 @@
         <!-- end's Карточки товаров -->
 
         <!-- Footer -->
-        <mj-include path="footer/footer_base.mjml" />
+        <mj-section mj-class="main__bg  footer__divider">
+            <mj-column mj-class="pad--0"></mj-column>
+        </mj-section>
+        <mj-section mj-class="footer">
+            <mj-column mj-class="footer__inner">
+                <mj-section mj-class="footer__grid">
+                    <mj-column mj-class="footer__grid-col2" css-class="dib  footer__grid-col2">
+                        <mj-button mj-class="footer__order"
+                                   href="#">
+                            Сделать заказ
+                        </mj-button>
+                        <mj-button mj-class="footer__store"
+                                   href="https://tegola.ru/">
+                            tegola.ru
+                        </mj-button>
+                    </mj-column>
+                    <mj-column mj-class="footer__grid-col2" css-class="dib  footer__grid-col2">
+                        <mj-text mj-class="footer__text">
+                            Подробную информацию спрашивайте у&nbsp;вашего персонального менеджера, либо по&nbsp;телефону горячей линии
+                        </mj-text>
+                        <mj-button mj-class="footer__phone"
+                                   href="tel:88005119802">
+                            8 (800) 511-98-02
+                        </mj-button>
+                    </mj-column>
+                </mj-section>
+
+                <mj-text mj-class="footer__unsubscribe">
+                    Если вы&nbsp;не&nbsp;заинтересованы в&nbsp;получении информации о&nbsp;новостях и&nbsp;акциях для наших постоянных клиентов, вы&nbsp;можете отписаться от&nbsp;рассылки, кликнув по&nbsp;ссылке ниже. <br>
+                    <a class="footer__unsubscribe" href="#">Отписаться от&nbsp;рассылки</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
     </mj-body>
 </mjml>
